@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%; 
+    /* keeps the children from outgrowing parent*/
+    border:1px solid gray;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+}
+section{
+    padding: 4% 0;
+}
+
+/* header section syles */
+header{
+    height:60vh;
+    background-image: url('../bg.jpg');
+}
+.logo{
+    width:10%;
+}
+.container{
+    display:flex;
+}
+.top-nav{
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav a{
+    color: #000;
+    font-size: 2rem;
+
+}
+.main-nav{
+    display: flex;
+
+}
+.main-titles{
+    color:rgba (255, 255, 255, -1)
+    /* red green blue OPACITY */
+}
